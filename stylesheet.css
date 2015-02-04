@@ -1,0 +1,177 @@
+/*
+ * muh stylesheet
+ */
+
+
+/*
+ * 1) Inconsolata
+ * 2) Raleway
+ */
+
+
+p {
+	/* Change default font + color */
+	font-family: sans-serif;
+	color: #657B83;
+}
+
+li, td {
+ 	font-family: sans-serif;
+    color: #657B83;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ 	font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    color: #002b36;
+
+}
+
+body {
+	/* Change background color, insert margins */
+	background-color: #FDF6E3;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.hw {
+	border: 1px solid #859900;
+	margin-top: 10pt;
+	margin-left: auto;
+	margin-bottom: 36pt;
+	margin-right: auto;
+	width: 80%;
+	text-align: left;
+	padding: 10px;
+	padding-bottom: 20px;
+	background: #EEE8D5;
+	text-align: justify;
+	font-family: Verdana, Arial, Helvetica, Sans-Serif;
+}
+
+.hw * {
+	/*font-family: Verdana, Arial, Helvetica, Sans-Serif;*/
+}
+
+code {
+	font-size: 14px;
+	color: black;
+}
+
+a code {
+    font-size: 14px;
+	color: #268BD2;
+}
+
+console {
+	font-size: 12 px;
+	color: red;
+}
+
+
+
+/* ****************
+ * Thus begins the menu stuff...... uh oh.
+ */
+
+
+#menu {		/* Wrapper for menubar */
+	overflow: hidden;
+	background-color: #EEE8D5;
+}
+
+#name {		/* Just used for muh name */
+	/*float: center;*/
+	/*padding-left: 2em;*/
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+
+}
+
+
+
+#name ul {
+	/* Remove default junk: bullets, padding, &c */
+	list-style-type: none;
+	margin:  0;
+	padding: 0;
+
+	
+	text-align: center;
+}
+
+#name ul li {
+	display: inline-block;
+	/*float: left;*/
+	/*width: 100px;*/
+
+	/* Temporary border to debug.... */
+	border: 1px solid #268BD2; 
+	/* border: 1px solid #002b36; */
+	/*padding: 0.4em;*/
+
+	font-family: "Raleway";
+}
+
+#name ul li a {
+	/* Add VERTICAL padding to links in Menu Bar; fixed width too */
+	padding: .25em 0em;
+	width:  5em;
+
+
+	/* Old button style */
+	/*background-color: #d9edf7;
+	border-color: #bce8f1;
+
+	border: 1px solid;
+	border-radius: 4px;*/
+
+	
+	display: block;
+}
+
+
+
+
+a {		/* Modify link appearance */
+	color: #268BD2;
+	text-decoration: none;
+}
+
+hr {	/* hr tag styling */
+	border: 0;
+	height: 1px;
+	background: #859900;
+	width: 80%;
+}
+
+#img_frame {	/* For muh face */
+	border-radius: 20px;
+	height: 200px;
+	width: 160px;
+	float: left;
+	padding: 10px;
+}
+
+/* Stolen shamelessly from sir Alex Breen */
+table.plain {
+    background-color: white;
+    width: auto;
+    border: 1px solid darkgray;
+}
+
+table.plain tr, table.plain th, table.plain td {
+    border: 1px solid darkgray;
+    padding: 0.5rem;
+}
+
+table.plain tt, table.plain code {
+    background-color: transparent;
+}
+
+
+
+
+
+
+

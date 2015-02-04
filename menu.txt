@@ -1,0 +1,16 @@
+	<div id="menu">
+
+		<div id="name">	
+			<!--<h1>Andrew Tarrh</h1>-->
+			<h2 style="font-size:40px;">Andrew Tarrh</h2>
+
+			<ul>
+				<li><a href='/atarrh/'>Home</a></li>
+				<li><a href='/atarrh/cs101/'>CS 101</a></li>
+				<li><a href='/atarrh/s111/'>S-111</a></li>
+			</ul>
+		</div>
+
+	</div>
+    <hr>
+
