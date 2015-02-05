@@ -1,0 +1,9 @@
+name: "Andrew Tarrh - BUCS"
+description: "A site to host a few details about me."
+
+url: "http://localhost:4000"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
